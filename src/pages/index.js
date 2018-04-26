@@ -7,6 +7,12 @@ import Waypoint from 'react-waypoint'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 import pic01 from '../assets/images/profile.jpeg'
+import cdiscountPic from '../assets/images/cdiscountCrop.png'
+import apth from '../assets/images/apth.jpg'
+import calixx from '../assets/images/calixx-p.jpg'
+import odeesa from '../assets/images/odeesa-p.jpg'
+import wax from '../assets/images/wax-p.jpg'
+
 import cv from '../assets/CV_JFR.pdf'
 
 
@@ -142,20 +148,73 @@ class Index extends React.Component {
             </footer> */}
           </section>
 
-           <section id="cta" className="main special">
+           <section id="third" className="main special">
             <header className="major">
-              <h2>En construction</h2>
+              <h2>Quelques projets</h2>
               <p>
-                Ce site est en construction. 
-                Bientot arriveront une liste d'exemple de projets réalisés.
+                Ci-dessous quelques projets marquants.
               </p>
+              <ul className="features">
+                <li>
+                  <span className="image">
+                    <img style={{maxWidth:250}} src={cdiscountPic} />
+                  </span>
+                  <h3><b>Cdiscount</b></h3>
+                  <p>
+                    En tant qu'<strong>expert technique</strong> front end, je suis actuellement en charge 
+                    de la qualité et la performance des applications et portages mobiles CDiscount.<br/>
+                    <i>L'application native est en React Native et le portage mobile est en ReactJs</i>
+                    
+                  </p>
+                </li>
+                <li>
+                  <span className="image">
+                    <img style={{maxWidth:250}} src={apth} />
+                  </span>
+                  <h3><b>APTH</b></h3>
+                  <p>
+                    Développement full stack d'une application de visualisation de réseau de bus.<br/>
+                    <i>Back end en Drupal 8, front en jQuery/mustache</i>
+                  </p>
+                </li>
+                <li>
+                  <span className="image">
+                    <img style={{maxWidth:250}} src={calixx} />
+                  </span>
+                  <h3><b>Calixx</b></h3>
+                  <p>
+                    Développement full stack d'un portail d'application.<br/>
+                    <i>Back end en Symfony, front en jQuery</i>
+                  </p>
+                </li>
+                <li>
+                  <span className="image">
+                    <img style={{maxWidth:250}} src={odeesa} />
+                  </span>
+                  <h3><b>Odeesa</b></h3>
+                  <p>
+                    Développement full stack d'un site de gestion d'événement.<br/>
+                    <i>Back end en Symfony, front en jQuery</i>
+                  </p>
+                </li>
+                <li>
+                  <span className="image">
+                    <img style={{maxWidth:250}} src={wax} />
+                  </span>
+                  <h3><b>Wax</b></h3>
+                  <p>
+                    Développement en MeteorJs / AngularJs d'un site de soumission d'idées innovantes avec système de votes.
+                  </p>
+                </li>
+              </ul>
+              
             </header>
-            <footer className="major">
+            {/*<footer className="major">
               <ul className="actions">
                 <li><Link to="#cta" className="button special">Coming soon</Link></li>
-                {/* <li><Link to="/generic" className="button">Learn More</Link></li> */}
+                 <li><Link to="/generic" className="button">Learn More</Link></li> 
               </ul>
-            </footer>
+            </footer>*/}
           </section>
 
         </div>
