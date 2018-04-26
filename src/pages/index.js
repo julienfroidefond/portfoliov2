@@ -6,7 +6,7 @@ import Waypoint from 'react-waypoint'
 
 import Header from '../components/Header'
 import Nav from '../components/Nav'
-import pic01 from '../assets/images/code.jpg'
+import pic01 from '../assets/images/profile.jpeg'
 import cv from '../assets/CV_JFR.pdf'
 
 
@@ -57,7 +57,7 @@ class Index extends React.Component {
                   <li><a href={cv} target="_blank" className="button">Télécharger CV</a></li>
                 </ul>
               </div>
-              <span className="image"><img style={{height: '200px',width: '200px', opacity: 0.7}} src={pic01} alt="" /></span>
+              <span className="image"><img style={{height: '170px',width: '170px', opacity: 0.9}} src="http://res.cloudinary.com/dpcocrdyl/image/upload/c_crop,h_292,w_292/v1524759672/profile_bdqcl8.jpg" alt="" /></span>
             </div>
           </section>
 
