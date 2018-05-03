@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Portfolio de Julien Froidefond",
     author: "Julien Froidefond",
-    description: "Portfolio de Julien Froidefond"
+    description: "Passionné par mon métier, je sais mettre en cohérence talent, outil technologique, savoir faire et personnalité."
   },
   pathPrefix: '/',
   plugins: [

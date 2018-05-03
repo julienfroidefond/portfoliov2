@@ -36,7 +36,10 @@ class Index extends React.Component {
 
     return (
       <div>
-        <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
+        <Helmet>
+          <title>{get(this, 'props.data.site.siteMetadata.title')}</title>
+          <meta name="description" content={get(this, 'props.data.site.siteMetadata.description')} />
+        </Helmet>
 
         <Header />
 
@@ -235,6 +238,7 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        description
       }
     }
   }
