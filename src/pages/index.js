@@ -60,7 +60,7 @@ class Index extends React.Component {
                 </header>
                 <p>Passionné par mon métier, je sais mettre en cohérence talent, 
                 outil technologique, savoir faire et personnalité. <br /><br />
-                Agé de 34 ans, mes passions et mes compétences me conduisent à être moteur,
+                Agé de 37 ans, mes passions et mes compétences me conduisent à être moteur,
                 ancré dans les technologies émergentes et l’innovation.</p>
                 <ul className="actions">
                   <li><a href={cv} target="_blank" className="button">Télécharger CV</a></li>
@@ -164,8 +164,8 @@ class Index extends React.Component {
                   </span>
                   <h3><b>Cdiscount</b></h3>
                   <p>
-                    En tant qu'<strong>expert technique</strong> front end, je suis actuellement en charge 
-                    de la qualité et la performance des applications et portages mobiles CDiscount.<br/>
+                    En tant que responsable technique, je suis actuellement en charge 
+                    de la qualité et la performance des applications Front CDiscount.<br/>
                     <i>L'application native est en React Native et le portage mobile est en ReactJs</i>
                     
                   </p>
