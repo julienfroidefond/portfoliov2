@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Julien Froidefond",
   "dependencies": {
-    "gatsby": "^1.9.235",
+    "gatsby": "^4.0.0",
     "gatsby-image": "^1.0.42",
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-google-analytics": "^1.0.31",
